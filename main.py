@@ -8,7 +8,7 @@ to be UTF-8 text of 1-8 characters, not only whitespace.
 
 import os
 
-# The single emoji we send: HEART HANDS (U+1FAF6).
+# The single emoji we send: HEART HANDS (U+1FAF6), picked after scoring the shortlist.
 # Why this one, against the judge's brief (warmth at first glance, then
 # universality, then "chosen rather than default", then "right for a
 # stranger"):
@@ -21,7 +21,7 @@ import os
 #    staying instantly readable.
 #  - Right for a stranger: it carries no intimacy, sarcasm or flirtation
 #    that would read oddly coming from someone unknown.
-EMOJI = "\U0001FAF6"  # 🫶 HEART HANDS
+EMOJI = "\U0001FAF6"  # 🫶 HEART HANDS — the winner of the warmth shortlist
 
 
 def main() -> None:
